@@ -115,7 +115,10 @@
     width: 1440px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+ 
+    background-color: #FFFFFF;
+    opacity: 100%;
+    border-bottom: 1px solid rgba(168, 169, 169, 0.983);
 }
 
 .nav-list {
@@ -124,6 +127,8 @@
   display: flex;
   align-items: center;
     justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .nav-help {
@@ -136,13 +141,7 @@
 
 .nav-ship-select {
     height: 24px;
-    width: 115px;
+    width: 80px;
     border: none;
-}
-
-.nav-ship-logo {
-    height: 16px;
-    width: 22px;
-    background-image: url("ship-logo.png");
-    background-size: cover;
+  
 }
