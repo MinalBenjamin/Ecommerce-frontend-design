@@ -12,8 +12,7 @@
 .navbar1 {
     height: 86px;
     width: 1440px;
-    background-color: #FFFFFF;
-    opacity: 100%;
+    background-color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -115,12 +114,11 @@
     width: 1440px;
     display: flex;
     align-items: center;
- 
-    background-color: #FFFFFF;
-    opacity: 100%;
+    background-color:  rgba(255, 255, 255, 1);
     border-bottom: 1px solid rgba(168, 169, 169, 0.983);
 }
 
+/*box1*/
 .nav-list {
     height: 24px;
     width: 620px;
@@ -135,13 +133,116 @@
     border: none;
 }
 
+/*box2*/
+.nav-pay {
+    height: 24px;
+    width: 115px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
 .nav-pay-select {
     border: none;
+}
+
+/*box3*/
+.nav-ship {
+    height: 24px;
+    width: 115px;
+    margin-right: 5px;
 }
 
 .nav-ship-select {
     height: 24px;
     width: 80px;
     border: none;
-  
+}
+
+/*main content of the page*/
+main {
+     background-color: rgba(199, 194, 194, 0.294);
+}
+
+/*footer*/
+footer {
+    height: 324px;
+    width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*box1*/
+.footer-box1 {
+    height: 157px;
+    width:  276px;
+}
+
+.footer-logo {
+    height: 46px;
+    width: 150px;
+    background-image: url("logo-colored.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+    height: 32px;
+    width: 200px;
+    background-image: url(footer-links.png);
+}
+/*box2*/
+.footer-box2 {
+    height: 137px;
+    width:  81px;
+
+}
+
+/*box3*/ 
+.footer-box3 {
+    height: 137px;
+    width:  90px;
+}
+
+/*box4*/
+.footer-box4 {
+    height: 137px;
+    width:  108px;
+}
+/*box5*/
+.footer-box5 {
+    height: 137px;
+    width:  78px;
+}
+
+ footer  ul {
+    list-style-type: none;
+    margin: 0;
+     padding: 0;
+}
+
+/*box6*/
+.footer-box6 {
+    height: 129px;
+    width:  124px;
+}
+
+.footer-app-store {
+  height: 42px;
+    width: 124px;
+    background-image: url("appstore.png");
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-google-play {
+    height: 42px;
+    width: 124px;
+    background-image: url("googleplay.png");
 }
