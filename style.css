@@ -542,6 +542,50 @@ main {
     border: none;
     margin-left: 3px;
 }
+
+/*box5 of main*/
+.section-box5 {
+    height: 256px;
+    width: 1440px;
+    background-color: rgb(178, 93, 228); 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-services {
+    background-color: cornflowerblue;
+    height: 256px;
+    width: 1180px;
+}
+
+.extra-services h3 {
+    height:32px;
+    width: 210px;
+    background-color: rgb(66, 138, 239);
+}
+
+.extra-services-box {
+    height: 200px;
+    width: 1180px;
+    background-color: crimson;
+}
+
+.ser-1 {
+    height: 200px;
+    width: 280px;
+    background-color: darkgreen;
+}
+
+.area1 {
+    background-color: rgba(209, 231, 255, 1);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
  
 /*box6 of main*/
 .section-box6 {
@@ -701,9 +745,6 @@ main {
   color: rgba(139, 150, 165, 1);
 
 }
-
-
-
 
 /*box7 of main*/
 .section-box7 {
