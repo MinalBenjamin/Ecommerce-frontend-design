@@ -547,46 +547,61 @@ main {
 .section-box5 {
     height: 256px;
     width: 1440px;
-    background-color: rgb(178, 93, 228); 
-     display: flex;
+      display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .extra-services {
-    background-color: cornflowerblue;
-    height: 256px;
+     height: 256px;
     width: 1180px;
 }
 
 .extra-services h3 {
     height:32px;
     width: 210px;
-    background-color: rgb(66, 138, 239);
-}
+ }
 
 .extra-services-box {
     height: 200px;
     width: 1180px;
-    background-color: crimson;
-}
+    display: flex;
+    justify-content: space-between;
+ }
 
 .ser-1 {
     height: 200px;
     width: 280px;
-    background-color: darkgreen;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-right-radius: 3%;
+   border-top-left-radius: 3%;
+   background-color: rgb(71, 65, 65);
+ }
+
+.bg1 {
+    height: 120px;
+    width: 280px;
 }
 
-.area1 {
-    background-color: rgba(209, 231, 255, 1);
-    height: 55px;
-    width: 55px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.content1 {
+    height: 80px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 1);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom-left-radius: 3%;
+   border-bottom-right-radius: 3%;
+
 }
- 
+
+.content1 p {
+    height: 44px;
+    width: 215px;
+    font-size: 19px;
+    margin-right: 50px;
+}
 /*box6 of main*/
 .section-box6 {
     height: 190px;
