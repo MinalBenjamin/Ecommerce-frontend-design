@@ -345,6 +345,7 @@ main {
     border: 1px solid rgba(168, 169, 169, 0.983);
      background-color: rgba(255, 255, 255, 1);
      display: flex;
+     border-radius: 5px;
 }
 
 /*menu bar of box1 */
@@ -556,6 +557,11 @@ main {
     height: 420px;
     width: 1180px;
     background-image: url("/inquiry-bg.png");
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   border-radius: 5px;
+
 }
 
 .inquiry-box1 {
@@ -568,6 +574,7 @@ main {
 
 .inquiry-box1 h3 {
      font-weight: 700;
+     font-size: 25px;
     height: 78px;
     width: 440px;
   margin: 1px 1px 1px 1px;
@@ -579,9 +586,66 @@ main {
 .inquiry-box1 p {
     height: 48px;
     width: 390px;
-    margin-top: ;
 }
 
+.inquiry-box2 {    
+    height: 346px;
+    width: 491px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+  }
+
+ .inquiry-box2  h3 {
+    height: 28px;
+    width: 332px;
+     margin: 20px 15px 15px 20px;
+ }
+
+ #item-name {
+    height: 40px;
+    width: 440px;
+     border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    margin: 5px 15px 15px 20px;
+ }
+
+ #detail {
+    height: 73px;
+    width: 440px;
+     border: none;
+    border-radius: 5px;
+    margin: 5px 15px 15px 20px;
+    border: 1px solid black;
+ }
+
+ #quality {
+    height: 40px;
+    width: 206px;
+    border: none;
+    border-radius: 5px;
+     margin: 5px 5px 15px 20px;
+     border: 1px solid black;
+ }
+
+ .inquiry-box2  select {
+    height: 40px;
+    width: 111px;
+    border-radius: 5px;
+    margin: 5px 15px 5px 10px;
+    border: 1px solid black;
+ }
+
+ .inquiry-box2 button {
+    height: 40px;
+    width: 128px;
+    border-radius: 5px;
+    background-color: rgba(18, 127, 255, 1);
+    color: white;
+     border: none;
+     margin: 5px 15px 1px 20px;
+
+ }
 /*box5 of main*/
 .section-box5 {
     height: 256px;
