@@ -356,7 +356,7 @@ main {
 
 .menu-bar-box1   {
     height: 40px;
-    width: 250p;
+    width: 250px;
     display: flex;
     align-items: center;
     margin-left: 15px;
@@ -569,14 +569,14 @@ main {
     justify-content: space-between;
  }
 
-.ser-1 {
+.ser-1, .ser-2, .ser-3, .ser-4 {
     height: 200px;
     width: 280px;
     background-size: contain;
     background-repeat: no-repeat;
     border-top-right-radius: 3%;
    border-top-left-radius: 3%;
-   background-color: rgb(71, 65, 65);
+   background-color: rgb(57, 50, 50);
  }
 
 .bg1 {
@@ -588,7 +588,7 @@ main {
     height: 80px;
     width: 280px;
     background-color: rgba(255, 255, 255, 1);
-   display: flex;
+   display: flex; 
    align-items: center;
    justify-content: center;
    border-bottom-left-radius: 3%;
@@ -596,7 +596,7 @@ main {
 
 }
 
-.content1 p {
+.content1 p{
     height: 44px;
     width: 215px;
     font-size: 19px;
