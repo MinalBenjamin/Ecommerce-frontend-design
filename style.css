@@ -543,6 +543,45 @@ main {
     margin-left: 3px;
 }
 
+/*box3 of main*/
+.section-box3 {
+    height: 420px;
+    width: 1440px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inquiry {
+    height: 420px;
+    width: 1180px;
+    background-image: url("/inquiry-bg.png");
+}
+
+.inquiry-box1 {
+    height: 139px;
+    width: 440px;
+     color: rgba(255, 255, 255, 1); 
+     margin-top: 50px;
+     margin-left: 45px;
+}
+
+.inquiry-box1 h3 {
+     font-weight: 700;
+    height: 78px;
+    width: 440px;
+  margin: 1px 1px 1px 1px;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inquiry-box1 p {
+    height: 48px;
+    width: 390px;
+    margin-top: ;
+}
+
 /*box5 of main*/
 .section-box5 {
     height: 256px;
