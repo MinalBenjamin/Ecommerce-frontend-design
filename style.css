@@ -650,8 +650,7 @@ main {
 .section-box4 {
     height: 696px;
     width: 1440px;
-    background-color: saddlebrown;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center; 
 }
@@ -660,26 +659,28 @@ main {
     height: 696px;
     width: 1180px;
     font-size: 20px;
-    background-color: rgb(19, 77, 139);
-}
+ }
 
 .recommended-items h3 {
     height: 32px;
     width: 242px;
- background-color: rgba(139, 150, 165, 1);
-}
+ }
 
 .items-box {
     height: 640px;
     width: 1180px;
-    background-color: rgb(246, 11, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 15px;
 }
 
 .item1 {
     height: 310px;
     width: 220px;
-    background-color: blueviolet;
+    background-color: rgba(255, 255, 255, 1);
+ border-radius: 5px;
 }
 
 .item1-logo {
@@ -687,6 +688,26 @@ main {
     width: 210px;
     margin-left: 5px;
  }
+
+.item-text {
+    height: 100px;
+    width: 210px;
+     margin-left: 5px;
+}
+
+.p1 {
+    height: 21px;
+    width: 65px;
+    margin: 10px 10px 5px 5px;
+ }
+
+.p2 {
+    height: 53px;
+    width: 186px;
+    margin: 10px 10px 5px 5px;
+    color: rgba(139, 150, 165, 1);
+ }
+
 /*box5 of main*/
 .section-box5 {
     height: 256px;
