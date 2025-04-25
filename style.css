@@ -644,7 +644,48 @@ main {
     color: white;
      border: none;
      margin: 5px 15px 1px 20px;
+ }
 
+ /*box4 of main*/
+.section-box4 {
+    height: 696px;
+    width: 1440px;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.recommended-items {
+    height: 696px;
+    width: 1180px;
+    font-size: 20px;
+    background-color: rgb(19, 77, 139);
+}
+
+.recommended-items h3 {
+    height: 32px;
+    width: 242px;
+ background-color: rgba(139, 150, 165, 1);
+}
+
+.items-box {
+    height: 640px;
+    width: 1180px;
+    background-color: rgb(246, 11, 11);
+    margin-top: 15px;
+}
+
+.item1 {
+    height: 310px;
+    width: 220px;
+    background-color: blueviolet;
+}
+
+.item1-logo {
+    height: 201.4px;
+    width: 210px;
+    margin-left: 5px;
  }
 /*box5 of main*/
 .section-box5 {
