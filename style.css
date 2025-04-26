@@ -551,23 +551,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .deals {
     height: 240px;
     width: 1180px;
     display: flex;
-    border-radius: 5px;   
+    border-radius: 5px; 
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    background-color: rgba(255, 255, 255, 1);  
 }
 
 .deals-offers {
     height: 240px;
     width: 300px ;
-}
-
-.deal-items {
-    height: 240px;
-    width: 880px;
 }
 
 .countdown {
@@ -594,6 +592,49 @@ main {
     align-items: center;
 }
 
+.deal-items {
+    height: 240px;
+    width: 895px;
+    display: flex;
+}
+
+.item-box {
+    height: 240px;
+    width: 179px;
+     border-right: 1px solid rgba(168, 169, 169, 0.983);
+     border-left: 1px solid rgba(168, 169, 169, 0.983);
+ }
+
+.item-img {
+    height: 140px;
+    width: 140px;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.item-content {
+    height: 59px;
+    width: 112px;
+     margin: 10px 25px 2px 30px;
+}
+
+.item-content p {
+    height: 24px;
+    width: 112px;
+ }
+
+.offer {
+    height: 28px;
+    width: 61px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(235, 0, 27, 1);
+    background-color: rgba(255, 227, 227, 1);
+    margin-top: 2px;
+    margin-left: 22px;
+}
 .box {
     height: 50px;
     width: 45px;
