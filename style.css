@@ -544,8 +544,10 @@ main {
     margin-left: 3px;
 }
 
-/*box3 of main*/
-.section-box3 {
+/*box2 add box2 hereeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+
+/*box5 of main*/
+.section-box5 {
     height: 420px;
     width: 1440px;
      display: flex;
@@ -646,8 +648,8 @@ main {
      margin: 5px 15px 1px 20px;
  }
 
- /*box4 of main*/
-.section-box4 {
+ /*box6 of main*/
+.section-box6 {
     height: 696px;
     width: 1440px;
      display: flex;
@@ -707,8 +709,8 @@ main {
     color: rgba(139, 150, 165, 1);
  }
 
-/*box5 of main*/
-.section-box5 {
+/*box7 of main*/
+.section-box7 {
     height: 256px;
     width: 1440px;
       display: flex;
@@ -733,7 +735,7 @@ main {
     justify-content: space-between;
  }
 
-.ser-1, .ser-2, .ser-3, .ser-4 {
+.ser-box {
     height: 200px;
     width: 280px;
     background-size: contain;
@@ -767,8 +769,8 @@ main {
     margin-right: 50px;
 }
 
-/*box6 of main*/
-.section-box6 {
+/*box8 of main*/
+.section-box8 {
     height: 190px;
     width: 1440px;
     display: flex;
@@ -816,8 +818,8 @@ main {
 
 }
 
-/*box7 of main*/
-.section-box7 {
+/*box9 of main*/
+.section-box9 {
     height: 190px;
     width: 1440px;
     display: flex;
