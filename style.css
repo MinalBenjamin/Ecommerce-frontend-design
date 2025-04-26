@@ -295,7 +295,7 @@ footer {
 .footer-panel2 {
     height: 68px;
     width: 1440px;
-    background-color: rgba(199, 194, 194, 0.294);
+    background-color: rgba(199, 194, 194, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -324,7 +324,7 @@ footer {
 
  /*main content of the page*/
 main {
-     background-color: rgba(199, 194, 194, 0.294);
+     background-color: rgba(11, 152, 180, 0.055);
      height: 3400px;
     width: 1440px;
 }
@@ -671,19 +671,18 @@ main {
     width: 1180px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     margin-top: 15px;
 }
 
-.item1 {
+.item {
     height: 310px;
     width: 220px;
     background-color: rgba(255, 255, 255, 1);
  border-radius: 5px;
 }
 
-.item1-logo {
+.item-logo {
     height: 201.4px;
     width: 210px;
     margin-left: 5px;
@@ -797,8 +796,7 @@ main {
 }
 
 /* suppliers country box*/
-.country-box1, .country-box2, .country-box3, .country-box4, .country-box5,
-.country-box6, .country-box7, .country-box8, .country-box9, .country-box10 {
+.country-box {
     height: 36px;
     width: 20%; 
     display: flex;
@@ -806,122 +804,13 @@ main {
     margin-bottom: 10px;  
 }
 
-.country1-logo {
+.country-logo {
     height: 34px;
     width:  28px;
     margin-right: 10px;
 }
 
-#country-shop1 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country2-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop2 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country3-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop3 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country4-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop4 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country5-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop5 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country6-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop6 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country7-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop7 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country8-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop8 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
- 
-.country9-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop9 {
-   font-size: small;
-  color: rgba(139, 150, 165, 1);
-
-}
-
-.country10-logo {
-    height: 34px;
-    width:  28px;
-    margin-right: 10px;
-}
-
-#country-shop10 {
+#country-shop {
    font-size: small;
   color: rgba(139, 150, 165, 1);
 
