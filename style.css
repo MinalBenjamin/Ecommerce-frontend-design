@@ -327,6 +327,11 @@ main {
      background-color: rgba(11, 152, 180, 0.055);
      height: 3400px;
     width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 /* box1 of main */
@@ -551,7 +556,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 .deals {
@@ -670,10 +674,9 @@ main {
     justify-content: center;
     align-items: center;
     border: none;
-    margin-bottom: 5px;
- }
+  }
 
-.items-group1 {
+.items-group {
     height: 257px;
     width: 1180px;
     border: 1px solid rgba(168, 169, 169, 0.983);
@@ -702,7 +705,7 @@ main {
     margin: 5px 10px 10px 15px;
 }
 
-.right-box1 {
+.right-box {
     height: 257px;
     width: 900px;
     background-color: rgba(255, 255, 255, 1);
@@ -712,7 +715,7 @@ main {
     flex-wrap: wrap;
 }
 
-.right-container1 {
+.right-container {
     height: 127px;
     width: 224.5px;
     border-right: 1px solid rgba(168, 169, 169, 0.983); 
@@ -720,7 +723,7 @@ main {
   
  }
 
-.right-container1 img {
+.right-container img {
     height: 82px;
     width: 82px;
     margin: -29px 2px 0px 139px;
@@ -738,6 +741,38 @@ main {
     color: rgba(139, 150, 165, 1);
     margin: 15px 10px 2px 15px;
 }
+
+/*box4 of main*/
+.section-box4 {
+    height: 257px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+ .left-box2 {
+    height: 257px;
+    width: 280px;
+    background-image: url("/img.png");
+}
+
+.left-box2 p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 10px 10px 15px;
+}
+
+.left-box2 button {
+    height: 40px;
+    width: 123px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px 10px 15px;
+}
+
 /*box5 of main*/
 .section-box5 {
     height: 420px;
