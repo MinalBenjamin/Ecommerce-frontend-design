@@ -83,28 +83,28 @@
 .nav-profile {
     height: 41px;
     width: 37px;
-    background-image: url("profile.png");
+    background-image: url("/profile.png");
     background-size: cover;
 }
 
 .nav-message {
     height: 40px;
     width: 52px;
-    background-image: url("Message.png");
+    background-image: url("/Message.png");
     background-size: cover; 
 }
 
 .nav-orders {
     height: 40px;
     width: 39px;
-    background-image: url("Orders.png");
+    background-image: url("/Orders.png");
     background-size: contain;
 }
 
 .nav-cart {
     height: 41px;
     width: 44px;
-    background-image: url("Cart.png");
+    background-image: url("/Cart.png");
     background-size: cover;
 }
 
@@ -150,12 +150,16 @@
     height: 24px;
     width: 115px;
     margin-right: 5px;
+    display: flex;
 }
 
-.nav-ship-select {
-    height: 24px;
-    width: 80px;
-    border: none;
+.nav-ship-select img {
+     height: 15px;
+    width: 22px;
+    margin-right: 2px;
+    margin-left: 5px;
+    
+  
 }
 
 
