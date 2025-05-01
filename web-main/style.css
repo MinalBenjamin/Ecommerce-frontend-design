@@ -80,28 +80,28 @@
 .nav-profile {
     height: 41px;
     width: 37px;
-    background-image: url("/profile.png");
+    background-image: url("profile.png");
     background-size: cover;
 }
 
 .nav-message {
     height: 40px;
     width: 52px;
-    background-image: url("/Message.png");
+    background-image: url("Message.png");
     background-size: cover; 
 }
 
 .nav-orders {
     height: 40px;
     width: 39px;
-    background-image: url("/Orders.png");
+    background-image: url("Orders.png");
     background-size: contain;
 }
 
 .nav-cart {
     height: 41px;
     width: 44px;
-    background-image: url("/Cart.png");
+    background-image: url("Cart.png");
     background-size: cover;
 }
 
@@ -155,8 +155,6 @@
     width: 22px;
     margin-right: 2px;
     margin-left: 5px;
-    
-  
 }
 
 
@@ -246,7 +244,6 @@ footer {
 .footer-box2 {
     height: 137px;
     width:  81px;
-
 }
 
 /*box3*/ 
@@ -423,16 +420,14 @@ main {
     width: 250p;
      display: flex;
     align-items: center;
-  margin-left: 15px;
-    
-    
+  margin-left: 15px;   
 }
 
 /* quote box of mainbox1*/
 .quote-box {
     height: 95px;
     width: 200px;
-    background-color:  rgba(85, 189, 195, 1);
+    background-color: rgba(85, 189, 195, 1);
     color: rgba(255, 255, 255, 1);
     border-radius: 6px;
     display: flex;
@@ -449,14 +444,13 @@ main {
 .offer-box {
     height: 95px;
     width: 200px;
-    background-color:   rgba(243, 131, 50, 1);
+    background-color: rgba(243, 131, 50, 1);
     color: rgba(255, 255, 255, 1);
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 15px 5px 15px;
-
 }
 
 .offer-text {
@@ -470,7 +464,6 @@ main {
     background-color: rgba(227, 240, 255, 1);
     border-radius: 6px; 
     margin: 5px 15px 5px 15px;
-
 }
 
 .user-login-text {
@@ -494,7 +487,6 @@ main {
     width: 190px;
     height: 70px;
     margin: 2px 2px 2px 2px;
-
 }
 
 #join-now-btn {
@@ -688,7 +680,7 @@ main {
 .left-box1 {
     height: 257px;
     width: 280px;
-    background-image: url("/leftbox-img.png");
+    background-image: url("leftbox-img.png");
 }
 
 .left-box1 p {
@@ -756,7 +748,7 @@ main {
  .left-box2 {
     height: 257px;
     width: 280px;
-    background-image: url("/img.png");
+    background-image: url("img.png");
 }
 
 .left-box2 p {
@@ -786,12 +778,11 @@ main {
 .inquiry {
     height: 420px;
     width: 1180px;
-    background-image: url("/inquiry-bg.png");
+    background-image: url("inquiry-bg.png");
     display: flex;
     align-items: center;
    justify-content: space-around;
    border-radius: 5px;
-
 }
 
 .inquiry-box1 {
@@ -1008,8 +999,7 @@ main {
 
 .suppliers {
     height: 138px;
-    width: 1177px;
-   
+    width: 1177px;  
 }
 
 .suppliers h3 {
@@ -1043,7 +1033,6 @@ main {
 #country-shop {
    font-size: small;
   color: rgba(139, 150, 165, 1);
-
 }
 
 /*box9 of main*/
