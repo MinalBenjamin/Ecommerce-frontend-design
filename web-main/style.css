@@ -1084,3 +1084,75 @@ main {
     padding-left: 10px;
 }
 
+/* web list view page style here */
+/* box 1 */
+.listview-box1 {
+    height: 64px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(11, 152, 180, 0.055);
+}
+
+.breadcrumb {
+    height: 24px;
+    width: 411px;
+    color: rgba(139, 150, 165, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 105px;
+ }
+
+.breadcrumb img {
+    height: 20px;
+    width: 20px;
+}
+/*box 2*/
+.listview-box2 {
+    height: 63px;
+    width: 921px;
+    position: absolute;
+    left: 420px;
+    background-color: pink;
+}
+
+.content-top {
+    height: 62px;
+    width: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+}
+.content-top p {
+    height: 19px;
+    width: 251px;
+    background-color: palevioletred;
+}
+
+.verified-label {
+    height: 36px;
+    width: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rebeccapurple;
+}
+
+.verified-label p {
+    height: 36px;
+ width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-color: blue;
+}
+
+
+.verified-label img {
+    width: 34px;
+    height: 24px;
+}
+
+/*start from hereeeee*/
