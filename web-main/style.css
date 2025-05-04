@@ -1112,24 +1112,24 @@ main {
 .listview-box2 {
     height: 63px;
     width: 921px;
-    position: absolute;
-    left: 420px;
-    background-color: pink;
-}
+     margin-left: 420px;
+   
+ }
 
 .content-top {
     height: 62px;
     width: 920px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: purple;
-}
+    justify-content: space-around; 
+    border-radius: 5px;
+    border: 1px solid rgba(217, 217, 203, 0.803);
+    margin-bottom: 10px;
+ }
 .content-top p {
     height: 19px;
     width: 251px;
-    background-color: palevioletred;
-}
+ }
 
 .verified-label {
     height: 36px;
@@ -1137,8 +1137,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rebeccapurple;
-}
+    margin-left: 140px;
+ }
 
 .verified-label p {
     height: 36px;
@@ -1146,8 +1146,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
- background-color: blue;
-}
+ }
 
 
 .verified-label img {
@@ -1155,4 +1154,34 @@ main {
     height: 24px;
 }
 
-/*start from hereeeee*/
+ .selection-box select {
+    border: 1px solid rgba(217, 217, 203, 0.803);
+        border-radius: 5px;
+    height: 40px;
+    width: 170px;
+  }
+
+ .btn-group {
+    height: 40px;
+    width: 76px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgba(217, 217, 203, 0.803);
+  }
+
+.btn1 {
+    height: 40px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(180, 168, 168, 0.584);
+ }
+
+ .btn2 {
+    height: 40px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
