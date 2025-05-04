@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ecommerce-website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">  
     <link rel="stylesheet" href="/web-main/style.css">   
   </head>
  <body>
@@ -86,10 +86,62 @@
    <!--box3 of this listview page-->
    <section class="listview-box3">
     <div class="side-bar">
-      <div class="category"></div>
-      <div class="category"></div>
-      <div class="category"></div>
-      <div class="category"></div>
+
+      <div class="category">
+        <h3>Category<i class="fa-light fas fa-chevron-down"></i></h3>
+        <p>Mobile accessory</p>
+        <p>Electronics</p>
+        <p>Smartphones</p>
+        <p>Mobile tech</p>
+        <a href="#">See all</a>
+      </div>
+
+      <div class="brands">
+      <h3>Brands<i class="fa-light fas fa-chevron-down"></i></h3>
+     <label><input type="checkbox">  Samsung</label>
+     <label><input type="checkbox">  Apple</label>
+     <label><input type="checkbox">  Lenovo</label>
+     <label><input type="checkbox">  Huawei</label>
+     <label><input type="checkbox">  Pocco</label>
+     <a href="#">See all</a>
+      </div>
+
+     <!--for features-->
+      <div class="brands">
+        <h3>Features<i class="fa-light fas fa-chevron-down"></i></h3>
+        <label><input type="checkbox">  Mettalic</label>
+        <label><input type="checkbox">  Plastic cover</label>
+        <label><input type="checkbox">  8GB RAM</label>
+        <label><input type="checkbox">  Super power</label>
+        <label><input type="checkbox">  Longer battery</label>
+        <a href="#">See all</a>
+      </div>
+
+        <div class="price-filter">
+          <div class="price">
+            <span>Price range</span>
+            <i class="fa-light fas fa-chevron-down"></i>
+          </div>
+      
+          <div class="slider-container">
+            <input type="range" min="0" max="999999" class="range">
+            <input type="range" min="0" max="999999" class="range">
+          </div>
+      
+          <div class="input-container">
+            <div>
+              <label for="min">Min</label>
+              <input type="number" id="min" value="0">
+            </div>
+            <div>
+              <label for="max">Max</label>
+              <input type="number" id="max" value="999999">
+            </div>
+          </div>
+      
+          <button class="apply-btn">Apply</button>
+        </div>
+       
       <div class="category"></div>
       <div class="category"></div>
     </div>
