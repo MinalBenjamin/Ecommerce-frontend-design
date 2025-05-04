@@ -1112,8 +1112,9 @@ main {
 .listview-box2 {
     height: 63px;
     width: 921px;
-     margin-left: 420px;
-   
+    margin-left: 450px;
+    position:  absolute;
+    display: inline-block;  
  }
 
 .content-top {
@@ -1156,7 +1157,7 @@ main {
 
  .selection-box select {
     border: 1px solid rgba(217, 217, 203, 0.803);
-        border-radius: 5px;
+     border-radius: 5px;
     height: 40px;
     width: 170px;
   }
@@ -1184,4 +1185,22 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+ }
+
+ .listview-box3 {
+    height: 1448px;
+    width: 240px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: pink;
+ }
+
+ .category {
+    height: 264px;
+    width: 230px;
+    background-color: aqua;
  }
