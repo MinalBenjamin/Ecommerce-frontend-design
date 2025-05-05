@@ -1193,17 +1193,15 @@ main {
     height: 1448px;
     width: 240px;
     margin-left: 150px;
+    background-color: rgba(11, 152, 180, 0.055);
     flex-wrap: wrap;
     display: flex;
-    
-    border: 1px solid black;
-    border-radius: 5px;
 }
 
 .category {
     height: 241px;
     width: 236px;
-    border-top: 1px solid black;
+    border-top: 2px solid rgba(217, 217, 203, 0.803);
 }
 
  .category  h3 {
@@ -1251,7 +1249,7 @@ main {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    border-top: 1px solid black;
+    border-top:  2px solid rgba(217, 217, 203, 0.803);
 }
 
  .brands  h3 {
@@ -1294,9 +1292,8 @@ main {
 /*price filter box here*/
 .price-filter {
       width: 230px;
-    height: 200px;
-    background: #fff;
-    border-top: 1px solid black;
+    height: 230px;
+     border-top:  2px solid rgba(217, 217, 203, 0.803);
 }
   
 .price {
@@ -1307,13 +1304,21 @@ main {
     margin-bottom: 5px;
   }
   
-  .slider-container {
+.price h3 {
+    height: 48px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
     position: relative;
     height: 40px;
     margin-bottom: 12px;
   }
   
-  .range {
+.range {
     appearance: none;
     width: 100%;
     height: 4px;
@@ -1321,9 +1326,9 @@ main {
     position: absolute;
     top: 18px;
     pointer-events: none;
-  }
+}
   
-  .range::-webkit-slider-thumb {
+.range::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 20px;
     width: 20px;
@@ -1333,35 +1338,35 @@ main {
     pointer-events: all;
     position: relative;
     z-index: 2;
-  }
+}
   
-  .input-container {
+.input-container {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     margin-bottom: 12px;
-  }
+}
   
-  .input-container div {
+.input-container div {
     flex: 1;
-  }
+}
   
-  .input-container label {
+.input-container label {
     display: block;
     font-size: 12px;
     color: #555;
     margin-bottom: 4px;
-  }
+}
   
-  .input-container input {
+.input-container input {
     width: 100%;
     padding: 6px;
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid rgba(139, 150, 165, 1);
-  }
+}
   
- .apply-btn {
+.apply-btn {
     height: 40px;
     width: 228px;
     margin-top: 5px;
@@ -1374,14 +1379,17 @@ main {
 }
 
 .condition {
-    height: 192px;
+    height: 231px;
     width: 230px;
-    border-top: 1px solid black;
+    border-top: 2px solid rgba(217, 217, 203, 0.803);
 }
 
 .condition h3 {
     height: 48px;
     width: 230px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
 }
 
 .condition i {
@@ -1395,14 +1403,38 @@ main {
 }
 
 .ratings {
-    height: 192px;
+    height: 241px;
     width: 230px;
-    border-top: 1px solid black;
+    border-top: 2px solid rgba(217, 217, 203, 0.803);
 }
 
 .ratings h3 {
     height: 48px;
     width: 230px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
 }
 
+
+/*box4 of listview */
+.listview-box4 {
+    height: 1430px;
+    width: 920px;
+    background-color: rgb(20, 18, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
  
+.content {
+    height: 1429px;
+    width: 919px;
+    background-color: rgb(163, 56, 129);
+}
+
+.product-card {
+    height: 230px;
+    width: 920px;
+    background-color: #007bff;
+}
