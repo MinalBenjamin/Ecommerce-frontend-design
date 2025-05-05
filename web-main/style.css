@@ -1421,20 +1421,108 @@ main {
 .listview-box4 {
     height: 1430px;
     width: 920px;
-    background-color: rgb(20, 18, 20);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+     margin-left: 100px;
+ }
  
 .content {
     height: 1429px;
     width: 919px;
-    background-color: rgb(163, 56, 129);
+     display: flex;
+    flex-wrap: wrap;
 }
 
 .product-card {
     height: 230px;
-    width: 920px;
-    background-color: #007bff;
+    width: 910px;
+   display: flex;
+    border: 1px solid rgba(217, 217, 203, 0.803);
+    border-radius: 7px;
+    background-color: aq ua;
 }
+  
+.product-image {
+    width: 210px;
+    height: 210px;
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 7px;
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+  }
+  
+.product-title {
+    font-size: 16px;
+    margin: 0;
+    color: #111;
+    font-weight: 600;
+  }
+  
+.favorite-btn {
+    background: transparent;
+    border: 1px solid #faefefb7;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+.product-pricing {
+    margin: 10px 0;
+  }
+  
+.current-price {
+   font-size: 19px;
+    font-weight: bold;
+    color: #111;
+    margin-right: 10px;
+  }
+  
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+.product-meta {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+.stars {
+    color: #ffa500;
+    margin-right: 5px;
+  }
+  
+.score {
+    color: #f68b1e;
+    margin-right: 10px;
+  }
+  
+.orders {
+    color: #666;
+    margin-right: 10px;
+  }
+  
+.shipping .green {
+    color: green;
+  }
+  
+.product-description {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+.details-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+   }
+  
