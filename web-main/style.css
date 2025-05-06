@@ -1521,5 +1521,45 @@ main {
     justify-content: center;
 }
 
- 
-  
+/* box5 of listview page*/
+.listview-box5 {
+    height: 120px;
+    width: 347px;    
+    margin-bottom: 20px;
+}
+
+.selectbox {
+height: 100px;
+width: 347px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+.selectbox1 {
+    height: 40px;
+    width: 125px;    
+    border-radius: 5px; 
+    border: 1px solid rgba(27, 24, 24, 0.918);
+}
+
+.selectbox2 {
+    height: 40px;
+    width: 205px;
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: space-between;
+ border-radius: 5px; 
+ border-bottom: 2px solid rgba(27, 24, 24, 0.918);
+ border-top: 2px solid rgba(27, 24, 24, 0.918);
+ border-right: 2px solid rgba(27, 24, 24, 0.918);
+}
+
+.minibox {
+    height: 36px;
+    width: 40px;
+    padding: 11px 10px 0px 14px;
+    border-left: 2px solid rgba(27, 24, 24, 0.918);
+    border-radius: 2px;
+   background-color: rgb(251, 249, 249);
+ }
