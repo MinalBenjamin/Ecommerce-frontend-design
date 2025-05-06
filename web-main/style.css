@@ -1111,7 +1111,7 @@ main {
 .listview-box2 {
     height: 63px;
     width: 921px;
-    margin-left: 450px;
+    margin-left: 400px;
     position:  absolute;
     display: inline-block;  
  }
@@ -1123,7 +1123,7 @@ main {
     align-items: center;
     justify-content: space-around; 
     border-radius: 5px;
-    border: 1px solid rgba(217, 217, 203, 0.803);
+    border: 1px solid rgba(61, 65, 65, 0.235);
     margin-bottom: 10px;
  }
 .content-top p {
@@ -1166,7 +1166,7 @@ main {
     width: 76px;
     display: flex;
     border-radius: 5px;
-    border: 1px solid rgba(217, 217, 203, 0.803);
+    border: 1px solid rgba(61, 65, 65, 0.235);
   }
 
 .btn1 {
@@ -1189,25 +1189,24 @@ main {
 /*box3 of listview */
 .listview-box3 {
     height: 1430px;
-    width: 920px;
+    width: 921px;
     margin-top: 100px;
-     margin-left: 450px;
+     margin-left: 400px;
 }
  
 .content {
     height: 1429px;
-    width: 919px;
+    width: 920px;
      display: flex;
     flex-wrap: wrap;
 }
 
 .product-card {
     height: 230px;
-    width: 910px;
+    width: 920px;
    display: flex;
-    border: 1px solid rgba(217, 217, 203, 0.803);
+    border: 0.9px solid rgba(61, 65, 65, 0.235);
     border-radius: 7px;
-    background-color: aq ua;
 }
   
 .product-image {
@@ -1234,7 +1233,7 @@ main {
   
 .favorite-btn {
     background: transparent;
-    border: 1px solid #faefefb7;
+    border: 1px solid rgba(61, 65, 65, 0.235);
     height: 30px;
     width: 30px;
     border-radius: 5px;
@@ -1313,7 +1312,7 @@ main {
 .category {
     height: 241px;
     width: 236px;
-    border-top: 2px solid rgba(217, 217, 203, 0.803);
+    border-top: 2px solid rgba(61, 65, 65, 0.235);
 }
 
  .category  h3 {
@@ -1361,7 +1360,7 @@ main {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    border-top:  2px solid rgba(217, 217, 203, 0.803);
+    border-top: 2px solid rgba(61, 65, 65, 0.235);
 }
 
  .brands  h3 {
@@ -1405,7 +1404,7 @@ main {
 .price-filter {
       width: 230px;
     height: 230px;
-     border-top:  2px solid rgba(217, 217, 203, 0.803);
+     border-top:  2px solid rgba(61, 65, 65, 0.235);
 }
   
 .price {
@@ -1489,7 +1488,7 @@ main {
 .condition {
     height: 231px;
     width: 230px;
-    border-top: 2px solid rgba(217, 217, 203, 0.803);
+    border-top: 2px solid rgba(61, 65, 65, 0.235);
 }
 
 .condition h3 {
@@ -1513,7 +1512,7 @@ main {
 .ratings {
     height: 241px;
     width: 230px;
-    border-top: 2px solid rgba(217, 217, 203, 0.803);
+    border-top: 2px solid rgba(61, 65, 65, 0.235);
 }
 
 .ratings h3 {
