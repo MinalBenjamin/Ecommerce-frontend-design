@@ -165,7 +165,6 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
-    border-bottom: 0.4px solid rgba(168, 169, 169, 0.983);
 }
 
 /*boxes of panel1*/
@@ -308,7 +307,6 @@ footer {
     width: 101px;
     border: none;
     background-color: rgba(199, 194, 194, 0.1);
-
 }
 
  /*main content of the page*/
