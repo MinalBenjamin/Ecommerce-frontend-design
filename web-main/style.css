@@ -661,7 +661,8 @@ main {
 .items-group {
     height: 257px;
     width: 1180px;
-    border: 1px solid rgba(168, 169, 169, 0.983);
+    border-bottom : 1px solid rgba(168, 169, 169, 0.983);
+    border-top : 1px solid rgba(168, 169, 169, 0.983);
     border-radius: 5px;
     display: flex;
  }
@@ -670,6 +671,8 @@ main {
     height: 257px;
     width: 280px;
     background-image: url("leftbox-img.png");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .left-box1 p {
@@ -699,7 +702,7 @@ main {
 
 .right-container {
     height: 127px;
-    width: 224.5px;
+    width: 223px;
     border-right: 1px solid rgba(168, 169, 169, 0.983); 
     border-bottom: 1px solid rgba(168, 169, 169, 0.983);   
  }
