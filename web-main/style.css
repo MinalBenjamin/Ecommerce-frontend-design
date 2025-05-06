@@ -1526,6 +1526,7 @@ main {
     height: 120px;
     width: 347px;    
     margin-bottom: 20px;
+    margin-left: 950px;
 }
 
 .selectbox {
@@ -1540,7 +1541,7 @@ width: 347px;
     height: 40px;
     width: 125px;    
     border-radius: 5px; 
-    border: 1px solid rgba(27, 24, 24, 0.918);
+    border: 1px solid rgba(61, 65, 65, 0.235);
 }
 
 .selectbox2 {
@@ -1550,16 +1551,16 @@ width: 347px;
     flex-wrap: wrap;
  justify-content: space-between;
  border-radius: 5px; 
- border-bottom: 2px solid rgba(27, 24, 24, 0.918);
- border-top: 2px solid rgba(27, 24, 24, 0.918);
- border-right: 2px solid rgba(27, 24, 24, 0.918);
+ border-bottom: 2px solid rgba(61, 65, 65, 0.235);
+ border-top: 2px solid rgba(61, 65, 65, 0.235);
+ border-right: 2px solid rgba(61, 65, 65, 0.235);
 }
 
 .minibox {
     height: 36px;
     width: 40px;
     padding: 11px 10px 0px 14px;
-    border-left: 2px solid rgba(27, 24, 24, 0.918);
+    border-left: 2px solid rgba(61, 65, 65, 0.235);
     border-radius: 2px;
-   background-color: rgb(251, 249, 249);
+   background-color: rgb(253, 253, 253);
  }
