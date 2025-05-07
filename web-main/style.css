@@ -347,6 +347,11 @@ main {
     margin: 15px 5px 15px 5px;
 }
 
+.menu-bar a {
+    text-decoration: none;
+    color: rgb(21, 22, 23);
+}
+
 .menu-bar-box1   {
     height: 40px;
     width: 250px;
@@ -1104,6 +1109,10 @@ main {
     margin-left: 105px;
  }
 
+.breadcrumb a {
+    text-decoration: none;
+    color: rgba(139, 150, 165, 1);
+}
 .breadcrumb img {
     height: 20px;
     width: 20px;
