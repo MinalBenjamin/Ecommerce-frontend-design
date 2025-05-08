@@ -309,16 +309,15 @@ footer {
     background-color: rgba(199, 194, 194, 0.1);
 }
 
- /*main content of the page*/
-main {
-     background-color: rgba(11, 152, 180, 0.055);
-     height: 3400px;
+ /*main content of the main-body or of the main page*/
+.main-body main{
+    background-color: rgba(11, 152, 180, 0.055);
+    height: 3400px;
     width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 /* box1 of main */
@@ -1089,6 +1088,13 @@ main {
     padding-left: 10px;
 }
 
+/*main content of the listview-body or of the listview page*/
+.listview-body main{
+    background-color: rgba(11, 152, 180, 0.055);
+    height: 1850px;
+    width: 1440px;
+}
+
 /* web list view page style here */
 /* box 1 */
 .listview-box1 {
@@ -1096,7 +1102,6 @@ main {
     width: 1440px;
     display: flex;
     align-items: center;
-    background-color: rgba(11, 152, 180, 0.055);
 }
 
 .breadcrumb {
@@ -1310,12 +1315,11 @@ main {
 
  .listview-box4 {
     height: 1448px;
-    width: 240px;
+    width: 100px;
     margin-left: 110px;
     position: absolute;
     top: 208px;
-    background-color: rgba(11, 152, 180, 0.055);
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     display: flex;
 }
 
@@ -1535,14 +1539,14 @@ main {
 
 /* box5 of listview page*/
 .listview-box5 {
-    height: 120px;
+    height: 60px;
     width: 347px;    
     margin-bottom: 20px;
     margin-left: 950px;
 }
 
 .selectbox {
-height: 100px;
+height: 60px;
 width: 347px;
  display: flex;
  justify-content: space-between;
@@ -1576,3 +1580,5 @@ width: 347px;
     border-radius: 2px;
    background-color: rgb(253, 253, 253);
  }
+
+ 
