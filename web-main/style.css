@@ -1575,3 +1575,51 @@ width: 347px;
     height: 1850px;
     width: 1440px;
  }
+
+ /* grid-view page box1 , filter container box here*/
+
+ .filters-container {
+    height: 32px;
+    width: 728px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-tag {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #007bff;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: default;
+}
+
+.filter-tag .remove-btn {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  color: #999;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filter-tag .remove-btn:hover {
+  color: #000;
+}
+
+.clear-filters {
+  color: #007bff;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-filters:hover {
+  text-decoration: underline;
+}
