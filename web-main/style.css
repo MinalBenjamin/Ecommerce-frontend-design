@@ -1095,7 +1095,7 @@ footer {
     width: 1440px;
 }
 
-/* web list view page style here */
+/* web list-view page style here */
 /* box 1 */
 .listview-box1 {
     height: 64px;
@@ -1139,6 +1139,7 @@ footer {
     justify-content: space-around; 
     border-radius: 5px;
     border: 1px solid rgba(61, 65, 65, 0.235);
+    background-color: rgba(255, 255, 255, 1);
     margin-bottom: 10px;
  }
 .content-top p {
@@ -1154,20 +1155,6 @@ footer {
     justify-content: space-evenly;
     margin-left: 140px;
  }
-
-.verified-label p {
-    height: 36px;
- width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
-
-
-.verified-label img {
-    width: 34px;
-    height: 24px;
-}
 
  .selection-box select {
     border: 1px solid rgba(217, 217, 203, 0.803);
@@ -1220,6 +1207,7 @@ footer {
     height: 230px;
     width: 920px;
    display: flex;
+   background-color: rgba(255, 255, 255, 1);
     border: 0.9px solid rgba(61, 65, 65, 0.235);
     border-radius: 7px;
 }
