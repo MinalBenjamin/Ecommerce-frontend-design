@@ -1569,4 +1569,9 @@ width: 347px;
    background-color: rgb(253, 253, 253);
  }
 
- 
+ /*grid-view page style here*/
+ .gridview-body main {
+    background-color: rgba(11, 152, 180, 0.055);
+    height: 1850px;
+    width: 1440px;
+ }
