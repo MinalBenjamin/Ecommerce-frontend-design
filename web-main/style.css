@@ -1193,7 +1193,7 @@ footer {
     height: 1430px;
     width: 921px;
     margin-top: 100px;
-     margin-left: 400px;
+   margin-left: 400px;
 }
  
 .content {
@@ -1572,7 +1572,7 @@ width: 347px;
  /*grid-view page style here*/
  .gridview-body main {
     background-color: rgba(11, 152, 180, 0.055);
-    height: 1850px;
+    height: 1900px;
     width: 1440px;
  }
 
@@ -1585,12 +1585,14 @@ width: 347px;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+    margin-left: 410px;
+    margin-top: 70px;
 }
 
 .filter-tag {
   display: flex;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid #007bff;
   color: #333;
   padding: 5px 10px;
