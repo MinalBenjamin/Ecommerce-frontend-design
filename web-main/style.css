@@ -1627,3 +1627,19 @@ width: 347px;
 }
 
 /* grid-view page , product grid here*/
+.grid-container {
+    height: 1360px;
+    width: 920px;
+    margin-left: 402px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 405px 405px 405px;
+    grid-template-columns: 295px 295px 295px;
+    gap: 15px;
+    background-color: rgb(179, 70, 88);
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
