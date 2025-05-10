@@ -1636,12 +1636,12 @@ width: 347px;
     grid-template-rows: 405px 405px 405px;
     grid-template-columns: 295px 295px 295px;
     gap: 15px;
-    background-color: rgb(179, 70, 88);
 }
 
 .grid-item {
     border: 1px solid #ccc;
     border-radius: 5px;
+      background-color: rgba(255, 255, 255, 1);
  }
 
 .grid-img {
@@ -1654,5 +1654,60 @@ width: 347px;
 .grid-img img {
     height: 230px;
     width: 230px;
+}
+
+.grid-detail {
+    padding: 20px;
+}
+
+.grid-pricing {
+    height: 23px;
+    width: 295px;
+    margin: 6px 0px 6px 0px;
+}
+
+.grid-current-price {
+    font-size: 19px;
+    font-weight: bold;
+    color: #111;
+    margin-right: 10px;
+}
+
+.grid-old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.grid-favorite-btn {
+    background: transparent;
+    border: 1px solid rgba(61, 65, 65, 0.235);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.grid-rating {
+    height: 19px;
+    width: 108px;
+    margin: 6px 0px 6px 0px;
 
 }
+
+.grid-stars {
+    color: #ffa500;
+    margin-right: 5px;
+}
+
+.grid-score {
+    color: #f68b1e;
+ }
+
+ .grid-heading {
+    height: 48px;
+   width: 215px;
+   margin: 6px 0px 3px 0px;
+ 
+ }
