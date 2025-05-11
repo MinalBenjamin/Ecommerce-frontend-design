@@ -1,11 +1,151 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ecommerce website</title>
-</head>
-<body>
-    <h1>ur orders</h1>
+    <title>ecommerce-website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/web-main/style.css">   
+  </head>
+  <body class="detail-body">
+     <header> 
+    <!--first navbar-->
+  <div class="navbar1">  
+
+       <div class="nav-logo">
+         <a href="/web-main/index.html"><div class="logo"></div></a> 
+      </div>
+
+     <div class="nav-search">
+        <input type="text" placeholder=" Search" class="nav-search-input">
+        <select class="nav-select">
+          <option>All Category </option>
+          </select>
+         <button class="nav-button">Search</button>
+       </div>
+  
+       <div class="nav-actions">
+          <div class="nav-icon"><img src="/web-main/profile-icon.png" alt="profile-icon"><a>Profile</a></div>
+          <div class="nav-icon"><img src="/web-main/message-icon.png" alt="profile-icon"><a>Message</a></div>
+          <div class="nav-icon"><img src="/web-main/order-icon.png" alt="profile-icon"><a href="/web-detail/detail.html">Orders</a></div>
+          <div class="nav-icon"><img src="/web-main/cart-icon.png" alt="profile-icon"><a>My cart</a></div>
+       </div>
+  </div>
+   
+  <!--second navbar-->
+   <div class="navbar2">
+    <div class="nav-list">
+      <a> <i class="fa-solid fa-bars" style="color: #080808;
+      margin-right: 5px;"></i>All Category</a>
+      <a>Hot offers</a>
+      <a>Gift boxes</a>
+      <a>Projects</a>
+      <a>Menu item</a>
+      <select class="nav-help">
+        <option>Help</option>
+         </select>
+    </div>
+
+    <div class="nav-pay">
+      <select class="nav-pay-select">
+        <option>English, USD</option>
+         </select>
+    </div>
+
+    <div class="nav-ship">
+      <span class="nav-ship-select">Ship to<img src="/web-main/ship-logo.png" alt="flag"class="nav-ship-logo">⌵ 
+      </span>
+    </div>
+
+   </div>
+   </header>
+
+    <!--now creating the footer-->
+   <footer>
+    <!--there are going to be 2 panels in footer-->
+    <!--panel1 of footer-->
+    <div class="footer-panel1">
+    <!--box1 of footer-->
+   <div class="footer-box1">
+    <a href="/web-main/index.html">
+      <div class="footer-logo"></div>
+    </a>
+    <div class="footer-content">Best information about the company gies here but now lorem ipsum is</div>
+    <div class="footer-links">
+      <div class="facebook-logo"> </div>
+      <div class="twitter-logo"></div>
+      <div class="linkedin-logo"></div>
+      <div class="instagram-logo"></div>
+      <div class="youtube-logo"></div>
+    </div>
+   </div>
+
+   <!--box2 of footer-->
+   <div class="footer-box2">
+    <b>About</b>
+    <ul>
+      <li><a>About us</a></li>
+      <li><a>Find store</a></li> 
+      <li><a>Categories</a></li>
+      <li><a>Blogs</a></li>
+    </ul>
+   </div>
+   
+   <!--box3 of footer-->
+   <div class="footer-box3">
+    <b>Partnership</b>
+    <ul>
+      <li><a>About us</a></li>
+      <li><a>Find store</a></li> 
+      <li><a>Categories</a></li>
+      <li><a>Blogs</a></li>
+    </ul>
+   </div>
+
+    <!--box4 of footer-->
+    <div class="footer-box4">
+      <b>Information</b>
+      <ul>
+        <li><a>Help center</a></li>
+        <li><a>Money refund</a></li> 
+        <li><a>Shipping</a></li>
+        <li><a>Contact us</a></li>
+      </ul>
+     </div>
+
+      <!--box5 of footer-->
+    <div class="footer-box5">
+      <b>For users</b>
+      <ul>
+        <li><a>Login</a></li>
+        <li><a>Register</a></li> 
+        <li><a>Settings</a></li>
+        <li><a>My orders</a></li>
+      </ul>
+     </div>
+
+      <!--box6 of footer-->
+    <div class="footer-box6">
+      <B>Get Our App</B>
+      <div class="footer-app-store">
+      </div>
+      <div class="footer-google-play"></div>
+    </div>
+   </div>
+    <!--panel2 of footer-->
+    <div class="footer-panel2">
+      <div class="footer-panel2-content">
+       <p> &copy2025 Ecommerce.</p>
+       <select>
+           <option>
+              English,USA
+           </option>
+           <option>
+              Urdu
+           </option> 
+       </select>
+      </div>
+    </div>
+   </footer>
 </body>
 </html>
