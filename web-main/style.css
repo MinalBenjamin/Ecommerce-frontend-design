@@ -1718,12 +1718,38 @@ width: 347px;
     height: 120px;
     display: flex;
     justify-content: center;
-    background-color: rgba(35, 124, 255, 1);
  }
 
 .banner {
     height: 120px;
     width: 1180px;
-    border-radius: 8px;
-    background-color: rgba(0, 90, 222, 1);
+    color: white;
+    background-color: rgb(26, 32, 41);
 }
+
+.banner-left {
+    height: 120px;
+    width: 745px;
+    background-color: rgba(35, 124, 255, 1);
+    border-radius: 8px;
+     border-top-right-radius: 100px;
+     padding: 30px 0px 10px 30px;
+      position: absolute;
+}
+
+.banner-p1 {
+    height: 32px;
+    width: 455px;
+    font-weight: 600;
+}
+
+.banner-p2 {
+    height: 19px;
+    width: 324px;
+}
+
+.banner-right {
+    height: 120px;
+     background-color: rgba(0, 90, 222, 1);
+    border-radius: 8px;
+ }
