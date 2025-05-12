@@ -1766,3 +1766,22 @@ width: 347px;
     margin-left: 270px;
     margin-top: 40px;
 }
+
+/* the related product section's style here */
+
+.related-product-section {
+    height: 350px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+.related-product {
+    height: 350px;
+    width: 1180px;
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+}
