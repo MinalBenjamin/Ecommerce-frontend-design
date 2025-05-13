@@ -1784,4 +1784,21 @@ width: 347px;
     border: 1px solid rgba(168, 169, 169, 0.983);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 1);
+ }
+
+.related-product-heading {
+    height: 28px;
+    width: 165px;
+    font-size: large;
+    font-weight: 500;
+    padding: 2px 2px 2px 12px;
+    margin: 20px 0px 10px 5px;
+    background-color: pink;
+}
+
+.related-product-list {
+    height: 254px;
+    width: 1179px;
+    margin: 15px 0px 0px 5px;
+    background-color: rgba(85, 189, 195, 1);
 }
