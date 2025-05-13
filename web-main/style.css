@@ -1798,7 +1798,35 @@ width: 347px;
 
 .related-product-list {
     height: 254px;
-    width: 1179px;
-    margin: 15px 0px 0px 5px;
+    width: 1180px;
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(85, 189, 195, 1);
+}
+
+.related-product-item {
+    height: 254px;
+    width: 172px;
+    background-color: red;
+}
+
+.related-product-item img {
+    height: 172px;
+    width: 172px;
+    border-radius: 5px;
+}
+
+.item-description {
+    height: 66px;
+    width: 142px;
+    padding: 5px 0px 2px 5px;
+}
+
+.item-heading {
+    color: rgba(80, 80, 80, 1);
+}
+
+.item-price {
+    color: rgba(139, 150, 165, 1);
 }
