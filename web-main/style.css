@@ -1793,29 +1793,28 @@ width: 347px;
     font-weight: 500;
     padding: 2px 2px 2px 12px;
     margin: 20px 0px 10px 5px;
-    background-color: pink;
-}
+ }
 
 .related-product-list {
     height: 254px;
-    width: 1180px;
-    margin: 15px 0px 0px 0px;
+    width: 1170px;
+    margin: 15px 0px 0px 5px;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(85, 189, 195, 1);
-}
+    align-items: center;
+ }
 
 .related-product-item {
     height: 254px;
     width: 172px;
-    background-color: red;
-}
+     border-radius: 5px;
+     background-color: rgba(238, 238, 238, 1);
+ }
 
 .related-product-item img {
     height: 172px;
     width: 172px;
-    border-radius: 5px;
-}
+ }
 
 .item-description {
     height: 66px;
