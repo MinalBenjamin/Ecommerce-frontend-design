@@ -1849,6 +1849,7 @@ width: 347px;
 .umaylike-heading {
     height: 19px;
     width: 97px;
+    font-weight: 600;
     margin-top: 7px;
     margin-left: 13px;
 }
@@ -1858,15 +1859,17 @@ width: 347px;
     width: 242px;
     margin-right: 10px;
   margin-left: 15px;
-    background-color: rgb(58, 30, 30);
+  display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .umaylike-item {
     height: 80px;
     width: 242px;
     display: flex;
-    justify-content: space-between;
-     background-color: rgb(40, 102, 190);
+    justify-content: space-around;
+     background-color: white;
 }
 
 .umaylike-item img {
