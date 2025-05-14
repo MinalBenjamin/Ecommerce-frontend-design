@@ -1894,3 +1894,10 @@ width: 347px;
     width: 109px;
     color: rgba(139, 150, 165, 1);
 }
+
+/* description section's style here */
+.description-section {
+    height: 618px;
+    width: 880px;
+    background-color: rebeccapurple;
+}
