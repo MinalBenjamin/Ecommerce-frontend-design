@@ -1829,3 +1829,19 @@ width: 347px;
 .item-price {
     color: rgba(139, 150, 165, 1);
 }
+/* "u may like" section's style here */
+.umaylike-section {
+  height: 553px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+   left: 1000px;
+  background-color: pink;
+}
+
+.umaylike-box {
+    height: 553px;
+    width: 277px;
+    background-color: rgb(243, 20, 20);
+}
