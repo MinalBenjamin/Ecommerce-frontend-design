@@ -1837,11 +1837,24 @@ width: 347px;
   justify-content: center;
   position: relative;
    left: 1000px;
-  background-color: pink;
-}
+   border: 1px solid rgba(168, 169, 169, 0.983);
+   border-radius: 5px;
+ }
 
 .umaylike-box {
     height: 553px;
     width: 277px;
-    background-color: rgb(243, 20, 20);
+ }
+
+.umaylike-heading {
+    height: 19px;
+    width: 97px;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.umaylike-item {
+    height: 523px;
+    width: 277px;
+    background-color: rgb(58, 30, 30);
 }
