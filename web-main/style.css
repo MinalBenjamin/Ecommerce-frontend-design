@@ -1850,8 +1850,7 @@ width: 347px;
     width: 880px;
     border: 1px solid rgba(168, 169, 169, 0.983);
     border-radius: 5px;
-    background-color: rgb(117, 149, 204);
-} 
+ } 
 
 .desc-title {
     height: 48px;
@@ -1859,8 +1858,7 @@ width: 347px;
     border-bottom: 1px solid rgba(168, 169, 169, 0.983);
     display: flex;
     align-items: center;
-     background-color: saddlebrown;
-}
+ }
 
 .desc-title a {
     color: rgba(139, 150, 165, 1);
@@ -1889,6 +1887,31 @@ width: 347px;
     width: 325px;
     color: rgba(80, 80, 80, 1);
     margin: 5px 0px 0px 0px;
+}
+
+/* description table here */
+.desc-table {
+    height: 180px;
+    width: 567px;
+    border-bottom: 1px solid rgba(168, 169, 169, 0.983);
+       border-left: 1px solid rgba(168, 169, 169, 0.983);
+       margin: 10px 0px 5px 20px;
+}
+
+th, td {
+   padding: 12px;
+  text-align: left;
+   border-top: 1px solid rgba(168, 169, 169, 0.983);
+   border-right: 1px solid rgba(168, 169, 169, 0.983);
+  color: rgba(80, 80, 80, 1);
+}
+ 
+th {
+    background-color:rgb(197, 199, 201);
+}
+
+td {
+    background-color: white;
 }
 
 /* "u may like" section's style here */
