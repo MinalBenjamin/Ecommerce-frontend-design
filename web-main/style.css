@@ -1829,21 +1829,60 @@ width: 347px;
 .item-price {
     color: rgba(139, 150, 165, 1);
 }
-/* "u may like" section's style here */
-.umaylike-section {
-  height: 553px;
-  width: 280px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-   left: 1000px;
-   border: 1px solid rgba(168, 169, 169, 0.983);
-   border-radius: 5px;
- }
 
+/* desc-pro-section's style here */
+.desc-pro-section {
+    height: 618px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.desc-pro-box {
+    height: 618px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+/* description box style  */
+.description-box {
+    height: 618px;
+    width: 880px;
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    border-radius: 5px;
+    background-color: rgb(117, 149, 204);
+} 
+
+.desc-title {
+    height: 48px;
+    width: 880px;
+    border-bottom: 1px solid rgba(168, 169, 169, 0.983);
+    display: flex;
+    align-items: center;
+     background-color: saddlebrown;
+}
+
+.desc-title a {
+    color: rgba(139, 150, 165, 1);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* "u may like" section's style here */
+ 
 .umaylike-box {
     height: 553px;
     width: 277px;
+    border: 1px solid rgba(168, 169, 169, 0.983);
+   border-radius: 5px;
  }
 
 .umaylike-heading {
@@ -1893,11 +1932,4 @@ width: 347px;
     height: 24px;
     width: 109px;
     color: rgba(139, 150, 165, 1);
-}
-
-/* description section's style here */
-.description-section {
-    height: 618px;
-    width: 880px;
-    background-color: rebeccapurple;
 }
