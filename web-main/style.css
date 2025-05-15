@@ -1712,7 +1712,24 @@ width: 347px;
    margin: 6px 0px 3px 0px;
  }
 
- 
+/* content-section's style here */
+.content-section {
+    height: 580px;
+    width: 1440px; 
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 15px 0px;
+}
+
+.content-box {
+    height: 580px;
+    width: 1180px; 
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    border-radius: 5px;
+    background-color: rgb(204, 128, 232);
+}
+
+
 
 /* desc-pro-section's style here */
 .desc-pro-section {
