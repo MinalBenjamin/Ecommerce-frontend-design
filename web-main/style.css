@@ -1712,123 +1712,7 @@ width: 347px;
    margin: 6px 0px 3px 0px;
  }
 
-/* banner's styling here  */
-.discount-banner {
-    width: 1440px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
- }
-
-.banner {
-    height: 120px;
-    width: 1180px;
-    color: white;
-    display: flex;
- }
-
-.banner-left {
-    height: 120px;
-    width: 745px;
-    background-color: rgba(35, 124, 255, 1);
-    padding: 25px 0px 0px 20px;
-    border-top-left-radius: 9px;
-    border-bottom-left-radius: 9px; 
-}
-
-.banner-p1 {
-    height: 35px;
-    width: 455px;
-     font-size: large;
-    font-weight: 600;
-}
-
-.banner-p2 {
-    height: 19px;
-    width: 324px;
-}
-
-.banner-right {
-    height: 120px;
-    width: 435px;
-     background-color: rgba(0, 90, 222, 1);
-    border-top-right-radius: 9px;
-    border-bottom-right-radius: 9px; 
- }
-
-.banner-right button {
-    height: 40px;
-    width: 108px;
-    background-color: rgba(255, 144, 23, 1);
-    color: white;
-    border-radius: 10px;
-    border: none;
-    margin-left: 270px;
-    margin-top: 40px;
-}
-
-/* the related product section's style here */
-
-.related-product-section {
-    height: 350px;
-    width: 1440px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
- }
-
-.related-product {
-    height: 350px;
-    width: 1180px;
-    border: 1px solid rgba(168, 169, 169, 0.983);
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 1);
- }
-
-.related-product-heading {
-    height: 28px;
-    width: 165px;
-    font-size: large;
-    font-weight: 500;
-    padding: 2px 2px 2px 12px;
-    margin: 20px 0px 10px 5px;
- }
-
-.related-product-list {
-    height: 254px;
-    width: 1170px;
-    margin: 15px 0px 0px 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
-
-.related-product-item {
-    height: 254px;
-    width: 172px;
-     border-radius: 5px;
-     background-color: rgba(238, 238, 238, 1);
- }
-
-.related-product-item img {
-    height: 172px;
-    width: 172px;
- }
-
-.item-description {
-    height: 66px;
-    width: 142px;
-    padding: 5px 0px 2px 5px;
-}
-
-.item-heading {
-    color: rgba(80, 80, 80, 1);
-}
-
-.item-price {
-    color: rgba(139, 150, 165, 1);
-}
+ 
 
 /* desc-pro-section's style here */
 .desc-pro-section {
@@ -1971,3 +1855,122 @@ td {
     width: 109px;
     color: rgba(139, 150, 165, 1);
 }
+
+/* the related product section's style here */
+.related-product-section {
+    height: 350px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+.related-product {
+    height: 350px;
+    width: 1180px;
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+ }
+
+.related-product-heading {
+    height: 28px;
+    width: 165px;
+    font-size: large;
+    font-weight: 500;
+    padding: 2px 2px 2px 12px;
+    margin: 20px 0px 10px 5px;
+ }
+
+.related-product-list {
+    height: 254px;
+    width: 1170px;
+    margin: 15px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.related-product-item {
+    height: 254px;
+    width: 172px;
+     border-radius: 5px;
+     background-color: rgba(238, 238, 238, 1);
+ }
+
+.related-product-item img {
+    height: 172px;
+    width: 172px;
+ }
+
+.item-description {
+    height: 66px;
+    width: 142px;
+    padding: 5px 0px 2px 5px;
+}
+
+.item-heading {
+    color: rgba(80, 80, 80, 1);
+}
+
+.item-price {
+    color: rgba(139, 150, 165, 1);
+}
+
+/* banner's styling here  */
+.discount-banner {
+    width: 1440px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+ }
+
+.banner {
+    height: 120px;
+    width: 1180px;
+    color: white;
+    display: flex;
+ }
+
+.banner-left {
+    height: 120px;
+    width: 745px;
+    background-color: rgba(35, 124, 255, 1);
+    padding: 25px 0px 0px 20px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px; 
+}
+
+.banner-p1 {
+    height: 35px;
+    width: 455px;
+     font-size: large;
+    font-weight: 600;
+}
+
+.banner-p2 {
+    height: 19px;
+    width: 324px;
+}
+
+.banner-right {
+    height: 120px;
+    width: 435px;
+     background-color: rgba(0, 90, 222, 1);
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px; 
+ }
+
+.banner-right button {
+    height: 40px;
+    width: 108px;
+    background-color: rgba(255, 144, 23, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 270px;
+    margin-top: 40px;
+}
+
+
