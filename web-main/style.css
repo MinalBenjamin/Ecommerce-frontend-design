@@ -1712,6 +1712,13 @@ width: 347px;
    margin: 6px 0px 3px 0px;
  }
 
+/* web-detail style here */
+.detail-body main {
+   background-color: rgba(11, 152, 180, 0.055);
+   height: 1850px;
+    width: 1440px;
+}
+
 /* content-section's style here */
 .content-section {
     height: 580px;
@@ -1729,7 +1736,7 @@ width: 347px;
     background-color: rgb(204, 128, 232);
 }
 
-/* ..........................MINAL START WRITING THE STYLE FROM HERE................. */
+/* ..........................MINAL START WRITING THE STYLE FROM HERE..................*/
 
 /* desc-pro-section's style here */
 .desc-pro-section {
