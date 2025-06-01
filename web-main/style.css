@@ -1758,6 +1758,7 @@ width: 347px;
     width: 880px;
     border: 1px solid rgba(168, 169, 169, 0.983);
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
  } 
 
 .desc-title {
@@ -1829,6 +1830,7 @@ td {
     width: 277px;
     border: 1px solid rgba(168, 169, 169, 0.983);
    border-radius: 5px;
+     background-color: rgba(255, 255, 255, 1);
  }
 
 .umaylike-heading {
