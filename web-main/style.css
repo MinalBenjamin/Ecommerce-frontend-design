@@ -1733,14 +1733,28 @@ width: 347px;
     width: 1180px; 
     border: 1px solid rgba(168, 169, 169, 0.983);
     border-radius: 5px;
+    display: flex;
     background-color: rgb(204, 128, 232);
-} 
-   hereeeeeeeee
+}  
 
- 
+/* product-image style here */
+.product-image {
+ height: 550px;
+ width: 360px;
+ background-color: rgba(35, 124, 255, 1);
+}
 
+.product-info {
+ height: 550px;
+ width: 360px;
+ background-color: rgba(35, 124, 255, 1);
+}
 
-/* ..........................MINAL START WRITING THE STYLE FROM HERE..................*/
+.supplier-info {
+ height: 550px;
+ width: 360px;
+ background-color: rgba(35, 124, 255, 1);
+}
 
 /* desc-pro-section's style here */
 .desc-pro-section {
