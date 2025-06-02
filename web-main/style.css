@@ -1749,14 +1749,14 @@ width: 347px;
 /* product-info"s style here  */
 .product-info {
  height: 550px;
- width: 400px;
+ width: 450px;
  background-color: rgba(35, 124, 255, 1);
 }
 
 /* supplier-info's style here */
 .supplier-info {
  height: 550px;
- width: 360px;
+ width: 320px;
  background-color: rgba(35, 124, 255, 1);
 }
 
