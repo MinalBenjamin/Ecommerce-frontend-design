@@ -1751,6 +1751,19 @@ width: 347px;
     width: 360px;
 }
 
+.gallery {
+    height: 56px;
+    width: 360px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    background-color: rgb(182, 48, 70);
+}
+
 /* product-info"s style here  */
 .product-info {
  height: 550px;
