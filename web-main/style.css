@@ -1746,6 +1746,11 @@ width: 347px;
  background-color: rgba(35, 124, 255, 1);
 }
 
+.Tshirt {
+    height: 360px;
+    width: 360px;
+}
+
 /* product-info"s style here  */
 .product-info {
  height: 550px;
