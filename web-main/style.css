@@ -1778,12 +1778,24 @@ width: 347px;
 .supplier-info {
  height: 550px;
  width: 320px;
- background-color: rgba(35, 124, 255, 1);
 }
 
-
-minal u need tto write hereee
-
+/* the main box of the supplier-info's here */
+.supplier-info-box {
+    height: 325px;
+    width: 320px;
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    border-radius: 5px;
+}
+ 
+/* the save for later box here */
+.save-box {
+    height: 24px;
+    width: 133px;
+    color:rgba(13, 110, 253, 1);
+    margin-top: 20px;
+    margin-left: 100px;
+}
 
 
 /* desc-pro-section's style here */
