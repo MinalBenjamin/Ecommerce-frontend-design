@@ -1828,7 +1828,11 @@ width: 347px;
     width: 21px;
 }
 
-/* the save for later box here */
+.seller-btn {
+    MINAL: MINAL;
+}
+
+/* the save-for-later box here */
 .save-box {
     height: 24px;
     width: 133px;
