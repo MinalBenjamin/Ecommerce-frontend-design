@@ -1788,6 +1788,30 @@ width: 347px;
     border-radius: 5px;
 }
  
+.seller {
+    height: 48px;
+    width: 208px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.seller-profile-pic {
+    height: 48px;
+    width: 48px;
+}
+ 
+.seller-line {
+    height: 0;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgba(168, 169, 169, 0.983);
+}
+
 /* the save for later box here */
 .save-box {
     height: 24px;
