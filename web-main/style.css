@@ -1796,12 +1796,12 @@ width: 347px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
-}
+ }
 
 .seller-profile-pic {
     height: 48px;
     width: 48px;
+    border-radius: 9px;
 }
  
 .seller-line {
@@ -1809,7 +1809,23 @@ width: 347px;
     width: 300px;
     margin-top: 20px;
     margin-left: 10px;
-    color: rgba(168, 169, 169, 0.983);
+ }
+
+.seller-info {
+    height: 80px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+
+.seller-info-text {
+    margin: 10px;
+  color: rgba(139, 150, 165, 1);
+}
+
+.seller-info-icon {
+    height: 15px;
+    width: 21px;
 }
 
 /* the save for later box here */
