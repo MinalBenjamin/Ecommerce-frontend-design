@@ -1743,7 +1743,6 @@ width: 347px;
 .product-image {
  height: 550px;
  width: 360px;
- background-color: rgba(35, 124, 255, 1);
 }
 
 .Tshirt {
@@ -1757,11 +1756,15 @@ width: 347px;
     margin-top: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
 
-
-
-    background-color: rgb(182, 48, 70);
+/* the gallery images style here */
+.Tshirt1 {
+    border: 1px solid rgba(168, 169, 169, 0.983);
+    height: 56px;
+    width: 56px;
+    border-radius: 5px;
 }
 
 /* product-info"s style here  */
@@ -1777,6 +1780,11 @@ width: 347px;
  width: 320px;
  background-color: rgba(35, 124, 255, 1);
 }
+
+
+minal u need tto write hereee
+
+
 
 /* desc-pro-section's style here */
 .desc-pro-section {
