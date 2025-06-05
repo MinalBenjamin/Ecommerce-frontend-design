@@ -1736,7 +1736,7 @@ width: 347px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(204, 128, 232);
+    background-color: rgba(255, 255, 255, 1);
 }  
 
 /* product-image style here */
