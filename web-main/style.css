@@ -1774,6 +1774,9 @@ width: 347px;
  background-color: rgba(35, 124, 255, 1);
 }
 
+/* MINAL HERE */
+
+
 /* supplier-info's style here */
 .supplier-info {
  height: 550px;
@@ -1829,7 +1832,34 @@ width: 347px;
 }
 
 .seller-btn {
-    MINAL: MINAL;
+ height: 100px;
+ width: 260px;
+ margin-top: 25px;
+ margin-left: 25px;
+ }
+
+.seller-btn button {
+    height: 40px;
+    width: 260px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.seller-btn button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.seller-btn1 {
+    border: none;
+    color: rgba(255, 255, 255, 1);
+     background-color: rgba(18, 127, 255, 1);
+}
+
+.seller-btn2 {
+    border: 1px solid rgb(233, 231, 231);
+    color: rgba(18, 127, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 /* the save-for-later box here */
