@@ -1776,25 +1776,27 @@ width: 347px;
 
 /* MINAL HERE */
 .product-info-p1 {
-    height: 262px;
+    height: 250px;
     width: 450px;
     background-color: rosybrown;
 }
 
 .product-info-p2 {
-   height: 140px;
+   height: 300px;
    width: 450px;
-   background-color: red;
+   
+   font-size: 14px;
+  color: #444;
+
+}
+.product-info-pt2 div {
+    margin-bottom: 8px;
+ }
+
+.product-info-pt2  div span {
+      font-weight: bold;
 }
 
-.product-info-p3  {
- height: 140px;
- width: 450px;
- border-bottom: 1px solid rgba(168, 169, 169, 0.983);
- background-color: rgb(69, 18, 18);
-}
-
-/* MINAL HERE */
 
 /* supplier-info's style here */
 .supplier-info {
