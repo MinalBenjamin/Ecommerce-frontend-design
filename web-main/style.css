@@ -1771,7 +1771,6 @@ width: 347px;
 .product-info {
  height: 550px;
  width: 450px;
- background-color: rgba(35, 124, 255, 1);
 }
 
 /* MINAL HERE */
@@ -1781,19 +1780,54 @@ width: 347px;
     background-color: rosybrown;
 }
 
-.product-info-p2 {
-   height: 300px;
-   width: 450px;
-   
-   font-size: 14px;
-  color: #444;
-
+.trade-price {
+     height: 74px;
+    width: 450px;
+    display: flex;
+    background-color: rgba(255, 239, 227,1);
 }
-.product-info-pt2 div {
-    margin-bottom: 8px;
- }
 
-.product-info-pt2  div span {
+.trade-price1 {
+    height: 74px;
+    width: 130px;
+    padding: 20px;
+    border-right: 1px solid rgba(168, 169, 169, 0.983);
+    color: rgba(250, 52, 52, 1);
+}
+
+.trade-price2 {
+    height: 74px;
+    width: 140px;
+   padding: 20px;
+      border-right: 1px solid rgba(168, 169, 169, 0.983);
+}
+
+.trade-price3 {
+    height: 74px;
+    width: 180px;
+      padding: 20px; 
+}
+
+.trade-price-text {
+    font-weight: 700;
+}
+.trade-price-value {
+    color: rgba(96, 96, 96, 1);
+}
+
+.product-info-p2 {
+   height: 250px;
+   width: 450px;
+   font-size: 15px;
+  color: #444;
+  border-bottom: 1px solid rgba(168, 169, 169, 0.983);
+}
+
+.product-info-p2 div {
+    margin-top: 15px;
+}
+
+.product-info-p2 span {
       font-weight: bold;
 }
 
