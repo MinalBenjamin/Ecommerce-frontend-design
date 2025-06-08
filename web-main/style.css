@@ -1780,6 +1780,12 @@ width: 347px;
     background-color: rosybrown;
 }
 
+.product-rating {
+   height: 21px;
+   width: 366px;
+   background-color: pink;
+}
+
 .trade-price {
      height: 74px;
     width: 450px;
