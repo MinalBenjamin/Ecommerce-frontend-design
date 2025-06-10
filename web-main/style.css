@@ -1740,7 +1740,7 @@ width: 347px;
 }  
 
 /* product-image style here */
-.product-image {
+.product-page-image {
  height: 550px;
  width: 360px; /*minal here*/
 }
@@ -1783,7 +1783,7 @@ width: 347px;
  width: 450px;
 }
 
-/* MINAL HERE */
+/* product info is divided into 2 main divs */
 .product-info-p1 {
     height: 250px;
     width: 450px;
@@ -1804,7 +1804,7 @@ width: 347px;
   height: 57px;
   width: 400px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .product-rating {
