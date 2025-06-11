@@ -2234,3 +2234,10 @@ td {
 }
 
 
+/* mycart's style here */
+/* the main contents style here */
+.mycart-body main {
+    background-color: rgba(11, 152, 180, 0.055);
+    height: 1807px;
+    width: 1440px;
+}
