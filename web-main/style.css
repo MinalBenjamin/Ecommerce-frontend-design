@@ -2241,3 +2241,41 @@ td {
     height: 1807px;
     width: 1440px;
 }
+
+.co-total-section {
+    height: 420px;
+    width: 280px;
+    background-color: pink;
+}
+
+.coupon {
+    height: 110px;
+    width: 280px;
+    margin-bottom: 9px;
+    padding: 10px;
+    padding-top: 19px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+ }
+
+.coupon p {
+    color:rgba(80, 80, 80, 1);
+    height: 19px;
+    width: 122px;
+}
+
+.coupon input {
+    height: 40px;
+    width: 164px;
+}
+ 
+.coupon button {
+    height: 40px;
+    width: 85px;
+}
+
+.co-total {
+    height: 302px;
+    width: 280px;
+    background-color: #333;
+}
