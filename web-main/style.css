@@ -2245,8 +2245,10 @@ td {
 .co-total-section {
     height: 420px;
     width: 280px;
-    background-color: pink;
-}
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+ }
 
 .coupon {
     height: 110px;
@@ -2254,28 +2256,46 @@ td {
     margin-bottom: 9px;
     padding: 10px;
     padding-top: 19px;
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgb(208 207 207);
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
  }
 
 .coupon p {
     color:rgba(80, 80, 80, 1);
     height: 19px;
     width: 122px;
+    margin-bottom: 5px;
 }
 
-.coupon input {
+#coupon-input {
     height: 40px;
-    width: 164px;
+    width: 167px;
+    border: 1px solid rgb(208 207 207);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2px 2px 2px 10px;
 }
  
-.coupon button {
+.coupon-btn {
     height: 40px;
     width: 85px;
+      border: 1px solid rgb(208 207 207);
+    border-radius: 5px;
+    color: rgba(13, 110, 253, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.coupon-btn:hover {
+    background-color: #dcdcdc;
+    cursor: pointer;   
 }
 
 .co-total {
     height: 302px;
     width: 280px;
-    background-color: #333;
+     border: 1px solid rgb(208 207 207);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
 }
+
