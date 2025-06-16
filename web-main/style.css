@@ -2293,9 +2293,71 @@ td {
 
 .co-total {
     height: 302px;
-    width: 280px;
+    width: 279px;
      border: 1px solid rgb(208 207 207);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 1);
 }
 
+.co-total1 {
+    height: 130px;
+    width: 280px;
+    display: flex;
+    border-bottom: 0.54px solid rgb(208 207 207);
+}
+
+.co-total1-box1 {
+    height: 130px;
+    width: 140px;
+}
+
+.co-total1-box1 p {
+   margin: 15px;
+   color: rgba(80, 80, 80, 1);
+}
+
+.co-total1-box2 {
+    height: 130px;
+    width: 140px;
+}
+
+.co-total1-box2 p {
+   margin: 15px;
+   color: rgba(80, 80, 80, 1);
+}
+
+.co-total2 {
+    height: 170px;
+    width: 280px;
+    background-color: rgb(161, 22, 45);
+}
+
+.co-total2-p {
+    height: 30px;
+    width: 280px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.co-total2-p p {
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 120px;
+    color: rgba(28, 28, 28, 1);
+}
+
+.co-total2-btn {
+    height: 54px;
+    width: 248px;
+    background-color: rgba(0, 181, 23, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 5px 5px 13px;
+}
+
+.co-total2-btn:hover {
+    background-color: rgb(5, 123, 21);
+    cursor: pointer;
+    color: #000;
+}
