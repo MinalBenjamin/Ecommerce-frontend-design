@@ -2359,5 +2359,15 @@ td {
 .co-total2-btn:hover {
     background-color: rgb(5, 123, 21);
     cursor: pointer;
-    color: #000;
+ }
+
+.pay-box {
+    height: 22px;
+    width: 200px;
+    background-color: pink;
+}
+
+.pay-icon {
+    height: 12px;
+    width: 34px;
 }
