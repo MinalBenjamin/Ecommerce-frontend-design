@@ -2364,12 +2364,17 @@ td {
 .pay-box {
     height: 22px;
     width: 200px;
+    display: flex;
+    justify-content: space-between;
     background-color: pink;
 }
 
+.pay-img {
+ height: 22px;
+ width: 34px;
+}
+ 
 .pay-icon {
     height: 12px;
-    width: 34px;
+    width: 30px;
 }
-
-/* i think im going to set the images as background imgs , reminder */
