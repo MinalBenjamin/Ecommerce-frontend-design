@@ -2329,14 +2329,15 @@ td {
 .co-total2 {
     height: 170px;
     width: 280px;
-    background-color: rgb(161, 22, 45);
+    padding: 5px;
 }
 
 .co-total2-p {
     height: 30px;
-    width: 280px;
+    width: 250px;
     display: flex;
     margin-top: 5px;
+    font-weight: 700;
 }
 
 .co-total2-p p {
@@ -2353,7 +2354,7 @@ td {
     color: white;
     border: none;
     border-radius: 10px;
-    margin: 10px 5px 5px 13px;
+    margin: 10px 5px 5px 10px;
 }
 
 .co-total2-btn:hover {
@@ -2366,12 +2367,15 @@ td {
     width: 200px;
     display: flex;
     justify-content: space-between;
-    background-color: pink;
-}
+    margin: 5px 5px 5px 35px;
+ }
 
 .pay-img {
  height: 22px;
  width: 34px;
+ border: 1px solid rgb(208 207 207);
+ border-radius: 5px;
+ background-color: white;
 }
  
 .pay-icon {
